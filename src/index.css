@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	user-select: none;
+}
+
+@font-face {
+	font-family: 'MangoGrotesque';
+	src: url('/fonts/StaffCondensedTest-Black.otf') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Satoshi-Regular';
+	src: url('/public/fonts/Satoshi-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+
+html {
+	overflow: hidden;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	font-family: 'MangoGrotesque';
+	position: fixed;
+	/* prevent overscroll bounce*/
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	font-family: 'MangoGrotesque';
+}
